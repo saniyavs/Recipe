@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbprint Heart Cookies</title>
+    <style>
+        body {
+            background-color: #fff5e6;
+            color: #5a2d0c;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #f8d7b3;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            color: #b33e5c;
+        }
+
+        h2 {
+            color: #b33e5c;
+            border-bottom: 2px solid #b33e5c;
+            padding-bottom: 5px;
+        }
+
+        div {
+            margin-bottom: 20px;
+        }
+
+        ul, ol {
+            margin: 0 20px;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            border: 3px solid #b33e5c;
+            border-radius: 8px;
+        }
+
+        audio {
+            display: block;
+            margin: 15px auto;
+        }
+
+        form {
+            background-color: #ffe5d1;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea, button {
+            display: block;
+            margin: 10px 0;
+            padding: 8px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        input[type="radio"] {
+            display: inline-block;
+            width: auto;
+            margin-right: 10px;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #b33e5c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background-color: #8e3044;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Thumbprint Heart Cookies</h1>
+    </header>
+
+    <div>
+        <h2>Ingredients</h2>
+        <ul>
+            <li>1 cup unsalted butter, softened</li>
+            <li>2/3 cup granulated sugar</li>
+            <li>2 large egg yolks</li>
+            <li>1 teaspoon vanilla extract</li>
+            <li>2 cups all-purpose flour</li>
+            <li>1/4 teaspoon salt</li>
+            <li>1/2 cup strawberry or raspberry jam</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Steps</h2>
+        <ol>
+            <li>Preheat the oven to 350°F (175°C) and line a baking sheet with parchment paper.</li>
+            <li>Cream the butter and sugar until light and fluffy.</li>
+            <li>Mix in the egg yolks and vanilla extract.</li>
+            <li>Add the flour and salt, mixing until the dough forms.</li>
+            <li>Roll the dough into small balls and place them on the baking sheet.</li>
+            <li>Use your thumb to make a heart-shaped indentation in each cookie.</li>
+            <li>Spoon a small amount of jam into each indentation.</li>
+            <li>Bake for 12-15 minutes until edges are golden.</li>
+            <li>Cool before serving.</li>
+        </ol>
+    </div>
+
+    <div>
+        <h2>Audio Recipe Instructions</h2>
+        <img src="thumbprint-heart-cookies.jpg" alt="Thumbprint Heart Cookies" width="300">
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div>
+        <h2>Feedback</h2>
+        <form action="mailto:saniyavs402@gmail.com" method="post" enctype="text/plain">
+            <label>
+            name
+            <input type="text" id="name" name="name" placeholder="name" required>
+         </label>
+            <br>
+            <label>
+            email
+            <input type="email" id="email" name="email" placeholder="email" required>
+        </label>
+        <br>
+
+            <label for="rating">Rate this recipe:</label><br>
+            <input type="radio" id="rating1" name="rating" value="1"> 1
+            <input type="radio" id="rating2" name="rating" value="2"> 2
+            <input type="radio" id="rating3" name="rating" value="3"> 3
+            <input type="radio" id="rating4" name="rating" value="4"> 4
+            <input type="radio" id="rating5" name="rating" value="5"> 5
+            <br><br>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
